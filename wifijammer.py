@@ -19,12 +19,12 @@ import fcntl
 W  = '\033[0m'  # white (normal)
 R  = '\033[31m' # red
 G  = '\033[32m' # green
-O  = '\033[33m' # orange
-B  = '\033[34m' # blue
+O  = '\033[33m' # red
+B  = '\033[34m' # tan
 P  = '\033[35m' # purple
 C  = '\033[36m' # cyan
 GR = '\033[37m' # gray
-T  = '\033[93m' # tan
+T  = '\033[93m' # blue
 
 def parse_args():
     #Create the arguments
@@ -446,3 +446,12 @@ if __name__ == "__main__":
         os.system('service network-manager restart')
         print '\n['+R+'!'+W+'] Closing'
         sys.exit(0)
+
+        
+       clear
+    ls
+     mkdir tools
+        cd tools
+        clear
+        cd
+        clear
